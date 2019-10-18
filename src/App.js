@@ -70,7 +70,7 @@ class App extends Component {
                 <Route path='/waitingverification' component={WaitingVerification} />
                 <Route path='/verified' component={Verified} />
                 <Route path='/payment' component={Payment}/>
-                <Route path='/studentlist' component={StudentList}/>
+                <Route path='/student-list' component={StudentList}/>
                 <Route path='/subscription' component={Subscription} />
                 <Route path='/user' component={UserPage} />
                 <Route path='/verificationUser' component={VerificationUser} />
@@ -84,6 +84,7 @@ class App extends Component {
                   {/* User Admin */}
                 <Route path='/manage-project' component={ProjectManage}/>
                 <Route path='/post-project' component={PostProject} />
+                <Route path='/post-student' component={PostStudent} />
 
                 <Route path='*' component={NotFound} />
 
